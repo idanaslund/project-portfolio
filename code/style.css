@@ -1,0 +1,41 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    width: 375px;        /*Lowest supported width value for mobile*/
+    margin: 0 auto;
+}
+
+.section:nth-child(2n) {
+    background-color:lightgrey;
+}
+
+.section:nth-child(2n + 1) {
+    background-color:#fff;
+}
+
+.project-image {
+    width: 100%;
+    display: inherit;                      /*Inherits the display:block from parent div*/
+}
+
+.project-heading {
+    font-size: 24px;
+    line-height: 30px;
+    margin: 17px 0;
+}
+
+.project-image-group {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(100, 100, 55, 0.5);               /*Fourth number maing the overlay being seethrough*/
+}
