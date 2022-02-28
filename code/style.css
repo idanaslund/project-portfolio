@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+header img{
+    height: 50vh;
+}
+
 .container {
     width: 375px;        /*Lowest supported width value for mobile*/
     margin: 0 auto;
