@@ -1,10 +1,7 @@
 body {
     box-sizing: border-box;
     margin: 0;
-
-    /*font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto', sans-serif;*/
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header {
@@ -29,10 +26,14 @@ body {
     color:#fff;
     position: absolute;
     top: 121px;
+    left: 24px;
+    width: 220px;
 }
 
 .portfolio, .name {
     font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    line-height: 18px;
 }
 
 .name {
@@ -41,6 +42,17 @@ body {
 
 h1, h2 {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 49px;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 50px;
 }
 
 .social-logos {
@@ -66,31 +78,28 @@ h1, h2 {
 }
 
 .presentation {
-    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 29px;
     
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
     background-color: #FA382F;
     color: #fff;
     display: inline;
 }
 
 h4 {
-    font-family: 'Montserrat', sans-serif;
     color:#FA382F;
 }
 
 h5 {
-    font-family: 'Montserrat', sans-serif;
     color:#FA382F;
 }
 
 .container {
     width: 375px;        /*Lowest supported width value for mobile*/
     margin: 0 auto;
-    
 }
 
 .section:nth-child(2n) {
@@ -99,6 +108,11 @@ h5 {
 
 .section:nth-child(2n + 1) {
     background-color:#fff;
+}
+
+.project-link {
+    text-decoration: none;
+    color:#000;
 }
 
 .project-image {
@@ -114,6 +128,14 @@ h5 {
 
 .project-image-group {
     position: relative;
+}
+
+.language-box {
+    background-color: #F5D8E0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    line-height: 11px;
+
 }
 
 .thoughts-image-group {
@@ -132,5 +154,4 @@ h5 {
 footer {
     background-color: #072BCE;
     color:#fff;
-    font-family: 'Montserrat', sans-serif;
 }
