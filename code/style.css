@@ -3,17 +3,42 @@ body {
     margin: 0;
 }
 
-header img{
-    height: 50vh;
+.header {
+    background-image: url(./images/irina-muller-9Qew-3nmDT4-unsplash.jpg);
+    background-size: cover;
+    height:520px;
+    background-position-x: 33%;
+    position: relative;
+    
+}
+
+h1 {
+    color:#fff;
+}
+
+.profile-img {
+    width: 180px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -16px;
+    right: 24px;
+}
+
+.header-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .container {
     width: 375px;        /*Lowest supported width value for mobile*/
     margin: 0 auto;
+    
 }
 
 .section:nth-child(2n) {
-    background-color:lightgrey;
+    background-color: #F4F4F4;
 }
 
 .section:nth-child(2n + 1) {
