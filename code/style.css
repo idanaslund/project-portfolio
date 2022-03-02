@@ -13,7 +13,6 @@ body {
     height:520px;
     background-position-x: 33%;
     position: relative;
-    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -29,6 +28,25 @@ body {
 .header-text-group {
     color:#fff;
     position: absolute;
+    top: 121px;
+}
+
+.portfolio, .name {
+    font-family: 'Roboto', sans-serif;
+}
+
+.name {
+    font-weight: bold;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.social-logos {
+    position:absolute;
+    right:0;
+    top: 48px;
 }
 
 .profile-img {
@@ -52,14 +70,19 @@ body {
     
 }
 
-h2 {
+h3 {
     font-family: 'Montserrat', sans-serif;
     background-color: #FA382F;
     color: #fff;
     display: inline;
 }
 
-h3 {
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color:#FA382F;
+}
+
+h5 {
     font-family: 'Montserrat', sans-serif;
     color:#FA382F;
 }
