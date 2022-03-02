@@ -1,6 +1,10 @@
 body {
     box-sizing: border-box;
     margin: 0;
+
+    /*font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;*/
+
 }
 
 .header {
@@ -9,16 +13,28 @@ body {
     height:520px;
     background-position-x: 33%;
     position: relative;
+    font-family: 'Roboto', sans-serif;
     
 }
 
-h1 {
+.header-overlay {
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(126, 126, 126, 0.5); 
+}
+
+.header-text-group {
     color:#fff;
+    position: absolute;
 }
 
 .profile-img {
     width: 180px;
     border-radius: 50%;
+    border: solid #fff;
     position: absolute;
     bottom: -16px;
     right: 24px;
@@ -29,6 +45,23 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.presentation {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FA382F;
+    color: #fff;
+    display: inline;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color:#FA382F;
 }
 
 .container {
@@ -60,11 +93,21 @@ h1 {
     position: relative;
 }
 
+.thoughts-image-group {
+    position: relative;
+}
+
 .overlay {
     position: absolute;
     top:0;
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(100, 100, 55, 0.5);               /*Fourth number maing the overlay being seethrough*/
+    background: rgba(53, 69, 119, 0.5);               /*Fourth number maing the overlay being seethrough*/
+}
+
+footer {
+    background-color: #072BCE;
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
 }
