@@ -4,17 +4,37 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+p {
+    font-size:18px;
+}
+
+a {
+    text-decoration: none;
+}
+
 .header {
     background-image: url(./images/irina-muller-9Qew-3nmDT4-unsplash.jpg);
     background-size: cover;
     height:520px;
     background-position-x: 33%;
-    position: relative;
-    
+    position: relative;  
+}
+
+.social-logos {
+    position:absolute;
+    right: 24px;
+    top: 48px;
 }
 
 .fab {
+    border-radius: 50%;
+}
+
+.fa-2x {
     color:#fff;
+    border: solid 2px #fff;
+    width: 31px;
+    padding: 10px;
 }
 
 .header-overlay {
@@ -59,12 +79,6 @@ h2 {
     line-height: 50px;
 }
 
-.social-logos {
-    position:absolute;
-    right:0;
-    top: 48px;
-}
-
 .profile-img {
     width: 180px;
     border-radius: 50%;
@@ -101,26 +115,17 @@ h2 {
 .presentation {
     font-size: 18px;
     line-height: 29px;
-    
-}
-
-h3 {
-    background-color: #FA382F;
-    color: #fff;
-    display: inline;
-}
-
-h4 {
-    color:#FA382F;
-}
-
-h5 {
-    color:#FA382F;
 }
 
 .container {
     width: 375px;        /*Lowest supported width value for mobile*/
     margin: 0 auto;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section:nth-child(2n) {
@@ -129,6 +134,30 @@ h5 {
 
 .section:nth-child(2n + 1) {
     background-color:#fff;
+}
+
+.title {
+    background-color: #FA382F;
+    color: #fff;
+    display: inline;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+
+h4 {
+    color:#FA382F;
+    font-size: 20px;
+}
+
+h5 {
+    color:#FA382F;
+    font-size: 18px;
+}
+
+h6 {
+    color:#FA382F;
+    display: inline;
 }
 
 .project-link {
@@ -141,13 +170,11 @@ h5 {
     display: inherit;                      /*Inherits the display:block from parent div*/
 }
 
-.project-heading {
-    font-size: 24px;
-    line-height: 30px;
-    margin: 17px 0;
+.image-group {
+    position: relative;
 }
 
-.project-image-group {
+.other-projects-img-container {
     position: relative;
 }
 
@@ -156,11 +183,6 @@ h5 {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 11px;
-
-}
-
-.thoughts-image-group {
-    position: relative;
 }
 
 .overlay {
@@ -177,7 +199,49 @@ h5 {
   background-color: transparent;
 }
 
+.my-skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nested-skills {
+    width: 175px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.fa-3x {
+    color:#FA382F;
+    border: solid 2px #FA382F;
+    width: 46.5px;
+    padding: 20px;
+}
+
+.more-logos {
+    display: flex;
+    flex-direction: row;
+}
+
+.more-links {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 footer {
     background-color: #072BCE;
     color:#fff;
+}
+
+
+@media (max-width: 1024px){ 
+	.other-projects-img-container {
+	    display: none;
+	}
+}
+
+@media (min-width: 1025px){ 
+
+  
 }
