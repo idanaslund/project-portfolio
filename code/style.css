@@ -13,6 +13,10 @@ body {
     
 }
 
+.fab {
+    color:#fff;
+}
+
 .header-overlay {
     position: absolute;
     top:0;
@@ -32,7 +36,7 @@ body {
 
 .portfolio, .name {
     font-family: 'Roboto', sans-serif;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 18px;
 }
 
@@ -41,12 +45,12 @@ body {
 }
 
 h1, h2 {
-    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
 h1 {
     font-size: 40px;
+    font-weight:900;
     line-height: 49px;
 }
 
@@ -77,8 +81,25 @@ h2 {
     justify-content: center;
 }
 
+.line {
+    border: 1px solid #E74A3C;
+    width: 40px;
+    display: inline-block;
+    margin-bottom: 4px;
+    margin-right: -4px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #E74A3C;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 0;
+}
+
 .presentation {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 29px;
     
 }
@@ -133,7 +154,7 @@ h5 {
 .language-box {
     background-color: #F5D8E0;
     font-family: 'Roboto', sans-serif;
-    font-size: 9px;
+    font-size: 16px;
     line-height: 11px;
 
 }
@@ -149,6 +170,11 @@ h5 {
     bottom: 0;
     left: 0;
     background: rgba(53, 69, 119, 0.5);               /*Fourth number maing the overlay being seethrough*/
+    transition: 0.5s ease;
+}
+
+.overlay:hover {
+  background-color: transparent;
 }
 
 footer {
