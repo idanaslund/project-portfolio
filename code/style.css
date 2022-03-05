@@ -169,7 +169,7 @@ h6 {
     position: relative;
 }
 
-.other-projects-img-container {
+.hidden-image-group {
     position: relative;
 }
 
@@ -237,7 +237,7 @@ footer {
 
 
 @media (max-width: 1024px){ 
-	.hidden-projects {
+	.hidden-image-group {
 	    display: none;
 	}
 
