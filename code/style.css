@@ -112,20 +112,9 @@ h2 {
     font-size: 0;
 }
 
-.presentation {
-    font-size: 18px;
-    line-height: 29px;
-}
-
 .container {
     width: 375px;        /*Lowest supported width value for mobile*/
     margin: 0 auto;
-}
-
-article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .section:nth-child(2n) {
@@ -134,6 +123,12 @@ article {
 
 .section:nth-child(2n + 1) {
     background-color:#fff;
+}
+
+.title-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .title {
@@ -234,14 +229,48 @@ footer {
     color:#fff;
 }
 
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 @media (max-width: 1024px){ 
-	.other-projects-img-container {
+	.hidden-projects {
 	    display: none;
 	}
+
+    .hidden-thoughts {
+        display: none;
+    }
+
+    .hidden-skills {
+        display: none;
+    }
 }
 
 @media (min-width: 1025px){ 
+    
+    .container {
+        width: 1025px;
+    }
 
-  
+   article {
+       width: 485px;
+   }
+   
+    .list-of-projects {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .desktop-align {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
