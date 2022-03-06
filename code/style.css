@@ -121,7 +121,7 @@ h2 {
 .dot {
     height: 10px;
     width: 10px;
-    margin-bottom: 1px;
+    margin-bottom: 1.5px;
     background-color: #E74A3C;
     border-radius: 50%;
     display: inline-block;
