@@ -143,6 +143,10 @@ h2 {
     padding: 50px 0 50px 0;
 }
 
+article {
+    margin-bottom: 30px;
+}
+
 .title-div {
     display: flex;
     flex-direction: column;
@@ -306,6 +310,6 @@ a[href^="tel"]{
     }
 
     .project-image, .thoughts-image {
-    height: 316px;
+        height: 316px;
     }
 }
