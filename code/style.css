@@ -197,10 +197,6 @@ h6 {
     position: relative;
 }
 
-.hidden-image-group {
-    position: relative;
-}
-
 .language-box {
     background-color: #F5D8E0;
     font-family: 'Roboto', sans-serif;
@@ -273,7 +269,7 @@ a[href^="tel"]{
 
 
 @media (max-width: 1024px){           /*Styling for mobile and tablet size*/
-	.hidden-image-group {
+	.hidden-projects {
 	    display: none;
 	}
 
@@ -311,5 +307,9 @@ a[href^="tel"]{
 
     .project-image, .thoughts-image {
         height: 316px;
+    }
+
+    .hidden-other {
+        display: none;
     }
 }
