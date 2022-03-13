@@ -21,6 +21,7 @@ p {
 
 a {
     text-decoration: none;
+    color:#000;
 }
 
 .header {
@@ -46,6 +47,10 @@ a {
 
 .fab {
     border-radius: 50%;
+}
+
+.fab:hover {
+    opacity: 0.5;
 }
 
 .fa-2x {
@@ -182,12 +187,6 @@ h6 {
     color:#000;
 }
 
-.other-link {
-    color:#FA382F;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
 .project-image, .thoughts-image {
     width: 100%;
     display: inherit;                      /*Inherits the display:block from parent div*/
@@ -202,6 +201,8 @@ h6 {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 11px;
+    padding: 3px;
+    margin-left: 10px;
 }
 
 .overlay {
@@ -249,6 +250,10 @@ h6 {
 
 }
 
+.more-links h6:hover {
+    color: #072BCE;
+}
+
 footer {
     background-color: #072BCE;
     color:#fff;
@@ -268,7 +273,12 @@ a[href^="tel"]{
 }
 
 
-@media (max-width: 1024px){           /*Styling for mobile and tablet size*/
+@media (max-width: 1024px){   /*Styling for mobile and tablet size*/
+
+    .project-text-group, .desktop-align, .thoughts-text-group  {
+        padding-left: 10px;
+    }
+
 	.hidden-projects {
 	    display: none;
 	}
@@ -311,5 +321,11 @@ a[href^="tel"]{
 
     .hidden-other {
         display: none;
+    }
+
+    .other-link {
+        color:#FA382F;
+        font-weight: bold;
+        text-decoration: underline;
     }
 }
