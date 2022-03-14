@@ -34,6 +34,8 @@ a {
 
 .header-container {
     height: 100%;
+    width: 375px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -294,6 +296,22 @@ a[href^="tel"]{
 
 @media (min-width: 1025px){                  /*Styling for desktop*/
     
+    .header-text-group {
+        top: 121px;
+        left: 250px;
+        width: 220px;
+    }
+
+    .social-logos {
+        right: 250px;
+        top: 48px;
+    }
+
+    .profile-img {
+        bottom: -16px;
+        right: 250px;
+    }
+
     .container {
         width: 1025px;
     }
