@@ -167,6 +167,7 @@ article {
     font-size: 24px;
     line-height: 30px;
     text-align: center;
+    padding: 0 5px 0 5px;
 }
 
 h4 {
@@ -196,6 +197,10 @@ h6 {
 
 .image-group {
     position: relative;
+}
+
+.desktop-align h5 {
+    text-decoration: underline;
 }
 
 .language-box {
