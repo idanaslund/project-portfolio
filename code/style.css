@@ -34,8 +34,6 @@ a {
 
 .header-container {
     height: 100%;
-    width: 375px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -203,12 +201,16 @@ h6 {
     text-decoration: underline;
 }
 
+.tech {
+    text-align: center;
+}
+
 .language-box {
     background-color: #F5D8E0;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    line-height: 11px;
-    padding: 3px;
+    line-height: 35px;
+    padding: 4px;
     margin-left: 10px;
 }
 
@@ -224,6 +226,20 @@ h6 {
 
 .overlay:hover {
   background-color: transparent;
+}
+
+.thoughts-text {
+    color: black;
+}
+
+.more-thoughts {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.thoughts-date {
+    color: red;
+    font-weight: 400;
 }
 
 .my-skills {
@@ -247,6 +263,10 @@ h6 {
 .more-logos {
     display: flex;
     flex-direction: row;
+}
+
+.more-title {
+    text-align: center;
 }
 
 .more-links {
@@ -289,10 +309,6 @@ a[href^="tel"]{
 	.hidden-projects {
 	    display: none;
 	}
-
-    .hidden-thoughts {
-        display: none;
-    }
 
     .hidden-skills {
         display: none;
