@@ -310,9 +310,6 @@ a[href^="tel"]{
 	    display: none;
 	}
 
-    .hidden-skills {
-        display: none;
-    }
 }
 
 @media (min-width: 1025px){                  /*Styling for desktop*/
